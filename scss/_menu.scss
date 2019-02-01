@@ -11,7 +11,7 @@
         width: 28px;
         height: 3px;
         margin: 0 0 5px 0;
-        background: #fff;
+        background: set-text-color($primary-color);
         @include easeOut;
     }
 
@@ -23,7 +23,7 @@
 
             // Line 1 - rotate
             &:nth-child(1) {
-                background: $secondary_color;
+                background: set-text-color($primary-color);
                 transform: rotate(45deg) translate(5px, 5px);
             }
 
@@ -121,7 +121,7 @@
         text-transform: uppercase;
         padding: 1rem 0;
         font-weight: 300;
-        color: white;
+        color: set-text-color($primary-color);
         text-decoration: none;
         @include easeOut;
 
