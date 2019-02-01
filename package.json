@@ -17,7 +17,6 @@
   "bugs": {
     "url": "https://github.com/budimanr3101/budimanr3101.github.io/issues"
   },
-  "homepage": "https://github.com/budimanr3101/budimanr3101.github.io#readme",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0"
